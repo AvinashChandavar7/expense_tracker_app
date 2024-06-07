@@ -1,0 +1,11 @@
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 36.77px;
+  color: #fff;
+  font-style: normal;
+}
+
+.heading_italic {
+  font-style: italic;
+}
