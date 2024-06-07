@@ -1,0 +1,39 @@
+.btn_primary {
+  width: 167.65px;
+  height: 38px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.38px;
+
+  text-transform: capitalize;
+  color: #fff;
+
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.btn_primary--green {
+  background-image: linear-gradient(to right, #b5dc52 0%, #89e148 100%);
+}
+
+.btn_primary--red {
+  background-image: linear-gradient(
+    to right,
+    #ff9595 0%,
+    #ff4747 50%,
+    #ff3838 100%
+  );
+}
+
+.btn_primary--yellowishOrange {
+  background-color: #f4bb4a;
+}
