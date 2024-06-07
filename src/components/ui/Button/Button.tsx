@@ -5,7 +5,8 @@ import "./Button.css"
 
 // Define your button variants
 const buttonVariants = {
-  primary: "btn_primary",
+  primary: "btn__primary",
+  secondary: "btn__secondary",
 }
 
 // Utility type to get the keys of buttonVariants

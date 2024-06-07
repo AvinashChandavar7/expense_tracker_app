@@ -1,4 +1,4 @@
-.btn_primary {
+.btn__primary {
   width: 167.65px;
   height: 38px;
   border-radius: 10px;
@@ -19,13 +19,31 @@
   align-items: center;
   justify-content: center;
   gap: 3px;
+
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
 }
 
-.btn_primary--green {
+.btn__secondary {
+  width: 112px;
+  height: 38px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+
+  text-transform: capitalize;
+  color: #000;
+  background-color: #d9d9d9;
+
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.2);
+
+  cursor: pointer;
+}
+
+.btn__primary--green {
   background-image: linear-gradient(to right, #b5dc52 0%, #89e148 100%);
 }
 
-.btn_primary--red {
+.btn__primary--red {
   background-image: linear-gradient(
     to right,
     #ff9595 0%,
@@ -34,6 +52,6 @@
   );
 }
 
-.btn_primary--yellowishOrange {
+.btn__primary--yellowishOrange {
   background-color: #f4bb4a;
 }
