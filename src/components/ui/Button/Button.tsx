@@ -7,6 +7,7 @@ import "./Button.css"
 const buttonVariants = {
   primary: "btn__primary",
   secondary: "btn__secondary",
+  icons: "btn__icons"
 }
 
 // Utility type to get the keys of buttonVariants
@@ -17,7 +18,7 @@ type VariantProps<T> = {
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
   VariantProps<typeof buttonVariants> {
-  text: string;
+  text?: string;
   icon?: React.ReactNode;
 }
 

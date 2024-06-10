@@ -4,6 +4,7 @@ import "./App.css"
 import Heading from './components/ui/Heading/Heading';
 import Box from './components/ui/Box/Box';
 import ExpenseSummaryCharts from './components/charts/ExpenseSummaryCharts';
+import ExpenseList from './components/ui/ExpenseList/ExpenseList';
 
 const App: React.FC = () => {
   return (
@@ -20,6 +21,9 @@ const App: React.FC = () => {
         </div>
       </div>
 
+      <div>
+        <ExpenseList />
+      </div>
 
     </main>
   )

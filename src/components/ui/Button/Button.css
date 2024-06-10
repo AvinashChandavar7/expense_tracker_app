@@ -55,3 +55,19 @@
 .btn__primary--yellowishOrange {
   background-color: #f4bb4a;
 }
+
+.btn__icons {
+  width: 37px;
+  height: 37px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+}
+
+.btn__icons--orange {
+  background-color: #f4bb4a;
+}
+
+.btn__icons--red {
+  background-color: #ff3e3e;
+}
