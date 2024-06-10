@@ -1,17 +1,27 @@
 import React from 'react'
-import Heading from './components/ui/Heading/Heading'
-import { Button } from './components/ui/Button/Button'
-import { FaPlus } from 'react-icons/fa'
+import "./App.css"
+
+import Heading from './components/ui/Heading/Heading';
+import Box from './components/ui/Box/Box';
+import ExpenseSummaryCharts from './components/charts/ExpenseSummaryCharts';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <Heading title="Expense Tracker" />
-      <Button text='Add Income' className='btn__primary--green' icon={<FaPlus className="icon" size={10} />} />
-      <Button text='Add Expense' className='btn__primary--red' icon={<FaPlus className="icon" size={10} />} />
-      <Button text='Add Expense' className='btn__primary--yellowishOrange' />
-      <Button text='Cancel' variant='secondary' />
-    </div>
+    <main>
+
+      <div className='app__container'>
+        <Heading title="Expense Tracker" className='heading_margin' />
+
+        <div className='app__container--box'>
+          <Box title='Wallet Balance' amount='4500' btn='Add Income' btnClassName='btn__primary--green' />
+          <Box title='Expenses' amount='500' btn='Add Expense' btnClassName='btn__primary--red' />
+
+          <ExpenseSummaryCharts />
+        </div>
+      </div>
+
+
+    </main>
   )
 }
 

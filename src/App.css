@@ -1,0 +1,18 @@
+.app__container {
+  /* border: 1px solid red; */
+  margin: 0rem 2rem;
+  padding: 1rem;
+}
+
+.app__container--box {
+  height: 269px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-around;
+
+  border-radius: 10px;
+
+  background-color: #626262;
+  padding: 2rem 1rem;
+}
